@@ -143,9 +143,9 @@ function TestWidgetsNode()
 	this.serialize_widgets = true;
 }
 
-TestWidgetsNode.title = "Widgets";
+TestWidgetsNode.title = "Persona";
 
-LiteGraph.registerNodeType("features/widgets", TestWidgetsNode );
+LiteGraph.registerNodeType("Main/Persona", TestWidgetsNode );
 
 //Show value inside the debug console
 function TestSpecialNode()

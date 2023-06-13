@@ -258,3 +258,7 @@ textarea {
 	/*touch-action: none; DESIDERABLE: implement zoom and pan*/
 	touch-action: pinch-zoom;
 }
+
+#main .header {
+	display: none;
+}
